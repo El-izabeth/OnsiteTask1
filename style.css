@@ -61,10 +61,11 @@ button:hover{
 }
 
 .m{
+    overflow-wrap: break-word;
     margin-left: 2px;
     text-align: left;
-    width:300px;
-    height:fit-content;
+    width:500px;
+    height: max-content;
     border-radius: 0px;
     background-color: cadetblue;
     color:aliceblue;
@@ -89,12 +90,12 @@ input{
     color:aliceblue;
     font-weight:100;
     
-    width: 290px;
-    min-height: 30px;
-    max-height: 100px;
+    width: 490px;
+    height: 100px;
     border-radius: 5px;
     padding:5px;
-    
+    overflow-wrap: break-word;
+    overflow-y: scroll;
     margin-left: 2px;
     
 }
