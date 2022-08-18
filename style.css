@@ -63,7 +63,8 @@ button:hover{
 .m{
     margin-left: 2px;
     text-align: left;
-    min-width:300px;
+    width:300px;
+    height:fit-content;
     border-radius: 0px;
     background-color: cadetblue;
     color:aliceblue;
