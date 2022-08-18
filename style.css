@@ -68,6 +68,8 @@ button:hover{
     border-radius: 0px;
     background-color: cadetblue;
     color:aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .hidden{
     display:none;
