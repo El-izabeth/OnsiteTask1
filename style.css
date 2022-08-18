@@ -17,12 +17,14 @@ h2{
 }
 
 .ip{
-    margin-left: 655px;
+    align-content: center   ;
+    margin-left: 574px;
     text-align: center ;
     background-color: darkcyan;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
-    max-width: 200px;
+    width: 350px;
+    height:250px;
     color: white;
 }
 
@@ -38,13 +40,13 @@ p{
 
 
 button{
-
+    
     border: none;
     font-family: 'Times New Roman', Times, serif;
     color: cadetblue;
     padding: 5px 5px;
     margin-top: 5px;
-    margin-left: 50px;
+    margin-left: 205px;
     text-decoration:double;
     display: block;
     font-size: 20px;
@@ -57,30 +59,43 @@ button{
 button:hover{
     background-color:darkcyan;
 }
+
 .m{
     margin-left: 2px;
     text-align: left;
     width:300px;
     border-radius: 0px;
+    background-color: cadetblue;
+    color:aliceblue;
 }
 .hidden{
     display:none;
     
 }
-
+input{
+    margin-top: 5px;
+    height: 30px;
+    border:none;
+    border-radius: 5px;
+    
+}
 
 .panel{
     text-align: left;
-    color:black;
+    background-color: darkcyan;
+    color:aliceblue;
+    font-weight:100;
     
-    background-color: whitesmoke;
-    min-width: 290px;
+    width: 290px;
     min-height: 30px;
     max-height: 100px;
     border-radius: 5px;
-    overflow-y: scroll;
+    padding:5px;
     
     margin-left: 2px;
     
+}
+.panel:hover{
+    overflow-y: scroll;
 }
 

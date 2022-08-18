@@ -10,8 +10,9 @@ function make(){
     const aNode = document.createTextNode(a);
     let b = document.createElement("button");
     let p = document.createElement("div");
-    b.setAttribute("class","m")
-    p.setAttribute("class","panel hidden ip");
+    b.setAttribute("class","m ")
+    p.setAttribute("class","panel hidden");
+    
     b.appendChild(qNode);
     p.appendChild(aNode);
     let newFaq = new faq(b,p)
@@ -19,11 +20,11 @@ function make(){
         
         if(w==0){
             p.classList.remove("hidden");
-            
             w=1;
         }
         else{
             p.classList.add("hidden");
+            
             w=0;
         }
         
